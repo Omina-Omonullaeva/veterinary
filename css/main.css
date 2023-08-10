@@ -6,25 +6,49 @@
 */
 
 @font-face {
-    font-display: swap;
-    font-family: 'Poppins';
+    font-display: swap; 
+    font-family: 'FuturaPT';
     font-style: normal;
     font-weight: 400;
-    src: url('../fonts/poppins-v20-latin-regular.woff2') format('woff2');
+    src: url('../fonts/FuturaPT-Light.woff2') format('woff2'); 
 }
 @font-face {
     font-display: swap; 
-    font-family: 'Poppins';
+    font-family: 'FuturaPT';
     font-style: normal;
     font-weight: 500;
-    src: url('../fonts/poppins-v20-latin-500.woff2') format('woff2'); 
+    src: url('../fonts/FuturaPT-Medium.woff2') format('woff2'); 
 }
 @font-face {
-    font-display: swap;
-    font-family: 'Poppins';
+    font-display: swap; 
+    font-family: 'FuturaPT';
     font-style: normal;
     font-weight: 700;
-    src: url('../fonts/poppins-v20-latin-700.woff2') format('woff2');
+    src: url('../fonts/FuturaPT-Bold.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 400;
+    src:
+    url('../fonts/FuturaPT-Light.woff') format('woff');
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 500;
+    src:
+    url('../fonts/FuturaPT-Medium.woff') format('woff');
+}
+@font-face {
+    font-display: swap; 
+    font-family: 'FuturaPT';
+    font-style: normal;
+    font-weight: 700;
+    src: 
+    url('../fonts/FuturaPT-Bold.woff') format('woff');
 }
 
 
@@ -80,7 +104,7 @@ body{
         -ms-flex-direction: column;
             flex-direction: column;
     height: 100%;
-    font-family: "Poppins", "Arial", sans-serif;
+    font-family: "FuturaPT", "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     background-color: #F5F5F5;
@@ -125,7 +149,7 @@ body{
     height: 13px;
     background-image: url(../images/decor1.svg);
     background-repeat: no-repeat;
-    margin-right: -11px;
+    margin-left: 15px;
     content: "";
 }
 
@@ -359,7 +383,7 @@ body{
     word-wrap: break-word;
     background-color: #333333;
     border-radius: 3px;
-    padding: 15px 35px 16px 47px;
+    padding: 15px 48px 16px 47px;
     -webkit-transition-property: background-color color;
     -o-transition-property: background-color color;
     transition-property: background-color color;
@@ -693,7 +717,7 @@ body{
 
 .subscribe-img {
     position: absolute;
-    margin-bottom: 64px;
+    margin-bottom: 68px;
     margin-left: 600px;
 }
 
@@ -716,7 +740,6 @@ body{
     border-radius: 5px;
     background: #FFF;
     padding: 18px 135px 12px 22px;
-    border: none;
     border: 2px solid #fff;
     outline: none;
 }
@@ -736,7 +759,7 @@ body{
     border-radius: 3px;
     border: 1px solid #333;
     background-color: #333;
-    padding: 20px 53px 13px 51px;
+    padding: 19px 53px 13px 51px;
 }
 
 /* SUBSCIBE SECTION ENDED */
@@ -791,7 +814,7 @@ body{
 
 .articles-img2 {
     width: 305px;
-    height: 458px;
+    height: 431px;
 }
 
 .box {
@@ -808,7 +831,8 @@ body{
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-bottom: 13px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .articles-link-box {
