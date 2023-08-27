@@ -509,9 +509,11 @@ body{
     background-color: #FFFFFF;
     border-radius: 5px;
     width: 193px;
+    height: 201px;
     text-align: center;
     padding: 30px 30px 28px;
     margin-bottom: 14px;
+    margin-right: 13px;
 }
 
 
@@ -550,31 +552,36 @@ body{
 } 
 
 
-.services-item:nth-child(2)::before {
+.services-item:nth-child(2)::before,
+.services-item:nth-child(8)::before {
     background-image: url(../images/image2.svg);
     width: 61.4px;
     height: 77px;   
 }
 
-.services-item:nth-child(3)::before {
+.services-item:nth-child(3)::before,
+.services-item:nth-child(9)::before {
     background-image: url(../images/image3.svg);
     width: 72px;
     height: 77px;
 }
 
-.services-item:nth-child(4)::before {
+.services-item:nth-child(4)::before,
+.services-item:nth-child(10)::before {
     background-image: url(../images/image4.svg);
     width: 75.938px;
     height: 78px;
 }
 
-.services-item:nth-child(5)::before {
+.services-item:nth-child(5)::before,
+.services-item:nth-child(11)::before {
     background-image: url(../images/image5.svg);
     width: 78px;
     height: 77px;
 }
 
-.services-item:nth-child(6)::before {
+.services-item:nth-child(6)::before,
+.services-item:nth-child(12)::before {
     background-image: url(../images/image6.svg);
     width: 75.938px;
     height: 78px;
